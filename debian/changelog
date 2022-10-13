@@ -1,0 +1,45 @@
+node-is-object (1.0.2+~1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * Use uscan group
+  * New upstream version 1.0.2+~1.0.2: updates @types/is-object 1.0.2
+
+ -- Yadd <yadd@debian.org>  Sat, 13 Nov 2021 18:55:52 +0100
+
+node-is-object (1.0.2-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 9 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+  * Update Vcs-* headers from URL redirect.
+  * Use canonical URL in Vcs-Git.
+  * Apply multi-arch hints.
+    + node-is-object: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Change section to javascript
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install
+  * Embed typescript definitions
+  * New upstream version 1.0.2
+
+ -- Xavier Guimard <yadd@debian.org>  Mon, 07 Dec 2020 10:11:07 +0100
+
+node-is-object (1.0.1-1) unstable; urgency=low
+
+  * Initial release (Closes: #868443)
+
+ -- VISAKH S <visakh1998@gmail.com>  Sun, 16 Jul 2017 17:26:41 +0000
